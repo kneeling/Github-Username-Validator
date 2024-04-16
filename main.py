@@ -2,7 +2,7 @@ import requests, threading, random, json
 from setup import Fore
 
 class Initialize:
-    def __init__(self, users_file='users.txt', valid_file='valid.txt'):
+    def __init__(self, users_file="users.txt", valid_file="valid.txt"):
         self.users_file = users_file
         self.valid_file = valid_file
         self.exists = self.read(self.valid_file)
